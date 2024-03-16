@@ -3,7 +3,7 @@ This repository is about assessment which is an Evaluation Task. The Repository 
 There is a Django Restframework api for user registration and authentication. The api is utilizing built in token authentication. Swagger documentation is also integrated with it. Fastapi has been used to for taskmanagement.
 
 ### Dependancy
-You will need to include you smtp email server credentials in the function `send_email_notiifcation`. Without these you will not be able to use task management api.
+You will need to include you smtp email server credentials in the function `send_email_notiifcation` in app.py file. Without these you will not be able to use task management api.
 
 ### Setup
 1. Clone the repository
